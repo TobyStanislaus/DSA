@@ -1,0 +1,21 @@
+two pointer/
+island
+fast and slow 
+sliding window
+merge intervals
+cyclic sort
+in place reversal of linked list
+tree breadth first search
+tree depth first
+two heaps 
+subsets
+modifited binary search
+modified bianry search
+top k elements
+bitwise xor
+backtracking
+0/1 knapsacking
+topological sort
+k way merge
+monotonic stack
+multi threaded
