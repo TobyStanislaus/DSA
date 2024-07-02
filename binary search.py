@@ -1,20 +1,13 @@
-def binarySearch(target):
-
-  arr=[1,2,3,4,5,6,7,8,9,10]
-  hi=len(arr)-1
-  lo=0
-
+def binarySearch(arr,target):
+  hi,lo=len(arr)-1,0
   while hi!=lo:
-    if arr[(hi+lo)//2]==target:
-      return (hi+lo)//2
-    
-    elif arr[(hi+lo)//2]>target:
-      hi=(hi+lo)//2
-    
-    elif arr[(hi+lo)//2]<target:
-      lo=(hi+lo)//2
+    i=(hi+lo)//2
+    if arr[i]==target:
+      return i
+    elif arr[i]>target:
+      hi=i-1
+    elif arr[i]<target:
+      lo=i+1
   return -1
 
-
-
-print(binarySearch(3))
+print(binarySearch([1,2,3,4,5],4))
